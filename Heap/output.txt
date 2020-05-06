@@ -1,0 +1,25 @@
+Sample Output:
+
+% Java Tester:  "Eerie eyes seen near lake."
+========================================
+char      frequency            code
+________________________________________
+E          1                    0000                          
+e          8                    10                            
+r          2                    1100                          
+i          1                    0001                          
+           4                    011                           
+y          1                    0010                          
+s          2                    1101                          
+n          2                    1110                          
+a          2                    1111                          
+l          1                    0011                          
+k          1                    0100                          
+.          1                    0101                          
+========================================
+Encoded bit stream:
+000010110000011001110001010110101111011010111001111101011111100011001111110100100101
+
+Total number of bits without Huffman coding ( 8-bits per character ) : 208
+Total number of bits with Huffman coding: 84
+Decoded String: Eerie eyes seen near lake.
